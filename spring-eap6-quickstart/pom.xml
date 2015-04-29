@@ -178,21 +178,11 @@
 	    	<version>4.1.0.Final</version>
 	    	<scope>provided</scope>
 	    </dependency>
-	    <dependency>
-                <groupId>org.jolokia</groupId>
-                <artifactId>jolokia-core</artifactId>
-                <version>1.2.3</version>
-            </dependency>
             <dependency>
                 <groupId>org.jolokia</groupId>
-                <artifactId>jolokia-client-java</artifactId>
+                <artifactId>jolokia-jvm</artifactId>
                 <version>1.2.3</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jolokia</groupId>
-                <artifactId>jolokia-client-javascript</artifactId>
-                <type>javascript</type>
-                <version>1.2.3</version>
+                <classifier>agent</classifier>
             </dependency>
             
         <!-- Import Spring dependencies, these are either from community or versions
