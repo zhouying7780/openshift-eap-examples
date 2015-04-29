@@ -134,6 +134,12 @@
                 <artifactId>commons-logging</artifactId>
                 <version>${version.commons.logging}</version>
             </dependency>
+            <dependency>
+                <groupId>org.jolokia</groupId>
+                <artifactId>jolokia-jvm</artifactId>
+                <version>1.2.3</version>
+                <classifier>agent</classifier>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
